@@ -81,7 +81,6 @@ namespace FLQuery
       this.dtpRegistryFrom.Name = "dtpRegistryFrom";
       this.dtpRegistryFrom.Size = new System.Drawing.Size(112, 20);
       this.dtpRegistryFrom.TabIndex = 0;
-      this.dtpRegistryFrom.ValueChanged += new System.EventHandler(this.OnPeriodChanged);
       // 
       // dtpRegistryTo
       // 
@@ -121,7 +120,6 @@ namespace FLQuery
       this.Name = "Root";
       this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
       this.Text = "FL.Query";
-      this.Load += new System.EventHandler(this.OnFormLoaded);
       this.TabRoot.ResumeLayout(false);
       this.TabPageRegistry.ResumeLayout(false);
       this.TabPageRegistry.PerformLayout();
