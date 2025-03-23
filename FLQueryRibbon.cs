@@ -34,11 +34,8 @@ public class FLQueryRibbon : IRibbonExtensibility
     ribbon.ActivateTab("rxFLQueryTab");
   }
 
-  public void OnRunQuery(IRibbonControl control)
-  {
-    Root root = new();
-    root.Show();
-  }
+  public void OnRunQuery(IRibbonControl control) => new Root().Show();
+  
 
   #endregion
 
