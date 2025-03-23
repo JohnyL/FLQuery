@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="OnRibbonLoaded">
+  <ribbon>
+    <tabs>
+      <tab id="rxFLQueryTab" label="FL.Query">
+        <group id="MyGroup" label="Query">
+          <button id="rxButtonRunQuery" size="large" label="Run Query" imageMso="MacroPlay" onAction="OnRunQuery"/>
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
